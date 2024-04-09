@@ -3,6 +3,7 @@
 The `useCurrencyCodes` custom hook is designed to provide a list of currency codes for use in applications that require currency-related functionality.
 Custom Hooks always help to understand how built-in hooks like `useState`, `useEffects`, and so on work internally. In this project, I have created a custom `useCurrencyCode`
 hook to get the data from the API and use it in the project.
+This project has some bugs while converting, But the main goal is to demonstrate the custom hooks you can modify the code a little bit so that it can work well.
 
 ![Capture](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/c76ce0e6-69ca-4f27-a650-82626a6bcb49)
 
