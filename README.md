@@ -32,4 +32,65 @@ visit [React Router](https://reactrouter.com/en/main) for documentation.
 ![Capture](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/dc3ef413-bea5-43b1-a9ff-0415ab43581e)
 
 
+# 03 - Json Server Project
+This project demonstrates how to perform CRUD operations using a JSON server. It includes examples of creating, reading, updating, and deleting resources via HTTP requests to a JSON server API.
+
+## Setup
+- Install JSON server in your project
+- Create a JSON file in your project
+- Run the JSON file
+
+Installing:
+```bash
+npm install  json-server
+```
+Run the file:
+```bash
+npx json-server --watch [path of JSON file]
+npx json-server --watch src/database/db.json
+```
+
+### CRUD OPERATIONS:
+GET:[Reading file]
+```bash
+ fetch('http://localhost:3000/users').then((res)=>res.json())
+    .then((data)=>setUserData(data))
+    .catch((err)=>console.log(err));
+```
+POST:[Creating]
+```bash
+fetch('http://localhost:3000/users',{
+        method:'POST',
+        headers:{
+          "Content-Type":'application/json'
+        },
+        body: JSON.stringify(formData)
+      }).then(()=>{
+        navigate('/dashboard')
+      })
+      .catch((e)=>console.log(e))
+```
+PUT:[Updating]
+```bash
+fetch(`http://localhost:3000/users/${params.paramId}`,{
+        method:'PUT',
+        headers:{
+          'Content-Type':'application/json'
+        },
+        body:JSON.stringify(formData)
+      }).then(()=>navigate('/dashboard'))
+      .catch((err)=>console.log(err))
+```
+DELETE[Deleting]
+```bash
+fetch(`http://localhost:3000/users/${id}`,{
+      method:"DELETE",
+      headers:{
+        'Content-Type':'application/json'
+      },
+```
+![Minimal Modern You Are Enough Quote Desktop Wallpaper](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/10732a3a-0dc6-4fd9-8ab2-e3ec38287006)
+
+
+
 
