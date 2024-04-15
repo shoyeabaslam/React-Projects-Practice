@@ -7,7 +7,8 @@ export interface FormDataType{
   name:string,
   email:string,
   gender:string,
-  skills:string
+  skills:string,
+  [key:string]:string | undefined
 }
 
 const Form = ()=>{

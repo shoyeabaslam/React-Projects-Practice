@@ -1,11 +1,39 @@
 {
   "users": [
     {
-      "id": "d83d",
+      "id": "0a88",
+      "name": "Kranthi",
+      "email": "sofee0512@gmail.com",
+      "gender": "female",
+      "skills": "React"
+    },
+    {
+      "id": "2a61",
       "name": "zubair",
+      "email": "LnD426@WinWire.com",
+      "gender": "male",
+      "skills": "React"
+    },
+    {
+      "id": "de87",
+      "name": "shoyeab",
+      "email": "sofee0512@gmail.com",
+      "gender": "male",
+      "skills": "DSA"
+    },
+    {
+      "id": "b4ec",
+      "name": "Abdul Sofee Daniyal",
       "email": "LnD426@WinWire.com",
       "gender": "female",
       "skills": "DSA"
+    },
+    {
+      "id": "0059",
+      "name": "Kranthi",
+      "email": "LnD426@WinWire.com",
+      "gender": "female",
+      "skills": "Next"
     }
   ]
 }
