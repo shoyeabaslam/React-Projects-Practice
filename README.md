@@ -14,7 +14,7 @@ This project has some bugs while converting, But the main goal is to demonstrate
 
 ![Capture](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/c76ce0e6-69ca-4f27-a650-82626a6bcb49)
 
-# 02_React_Routers
+# 02_React_Router
 
 While React is primarily used for building single-page applications (SPAs), you can transform it into a multi-page web application using the React Router library. 
 This project serves as a demonstration of how to integrate React Router into your application to enable multiple pages and navigation between them. 
