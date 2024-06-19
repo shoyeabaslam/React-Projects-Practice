@@ -1,4 +1,7 @@
-# 01 - Project [Custom Hooks]
+## Table Of Content
+- [Introduction](#01_Custom_Hooks)
+
+# 01_Custom_Hooks
 
 The `useCurrencyCodes` custom hook is designed to provide a list of currency codes for use in applications that require currency-related functionality.
 Custom Hooks always help to understand how built-in hooks like `useState`, `useEffects`, and so on work internally. In this project, I have created a custom `useCurrencyCode`
