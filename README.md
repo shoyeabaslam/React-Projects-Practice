@@ -92,5 +92,21 @@ fetch(`http://localhost:3000/users/${id}`,{
 ![Minimal Modern You Are Enough Quote Desktop Wallpaper](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/10732a3a-0dc6-4fd9-8ab2-e3ec38287006)
 
 
+# 04 - Project [Theme Changer using Context API]
+In this project, we explore the use of React's Context API for global state management. The primary focus is to manage a global theme state, allowing users to toggle between light and dark themes. The global state is managed in a context provider and consumed by various components in the application.
+
+### Features
+- Tilt Card Effect using framer motion
+- React Icons
+- Custom toggle button
+  
+```bash
+git clone https://github.com/shoyeabaslam/React-Projects-Practice.git
+cd React-Projects-Practice/04-context-api
+npm install
+```
+
+### Demo
+![Capture](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/ecef8afd-49ef-4ae2-8850-234a31497877)
 
 
