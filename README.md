@@ -99,7 +99,12 @@ In this project, we explore the use of React's Context API for global state mana
 - Tilt Card Effect using framer motion
 - React Icons
 - Custom toggle button
-  
+### Steps for creating context 
+1. Create the context  ```Example: const ContextName = createContext(defaultValue); ```
+3. Create context provider ``` <ContextName.Provider value={{}}>{children}</ContextName.Provider> ```
+4. Wrap the provider in main.tsx file
+5. Use the context ``` const {value} = useContext(ContextName); ```
+   
 ```bash
 git clone https://github.com/shoyeabaslam/React-Projects-Practice.git
 cd React-Projects-Practice/04-context-api
