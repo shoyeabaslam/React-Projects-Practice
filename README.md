@@ -1,5 +1,9 @@
 ## Table Of Content
-- [Introduction](#01_Custom_Hooks)
+- [01 Custom Hooks](#01_Custom_Hooks)
+- [02 React Routers](#02_React_Router)
+- [03 JSON Server](#03_JSON_Server)
+- [04 Context API In React](#04_Theme_Changer_Using_ContextAPI)
+  
 
 # 01_Custom_Hooks
 
@@ -10,7 +14,7 @@ This project has some bugs while converting, But the main goal is to demonstrate
 
 ![Capture](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/c76ce0e6-69ca-4f27-a650-82626a6bcb49)
 
-# 02 - Project [React Routers]
+# 02_React_Routers
 
 While React is primarily used for building single-page applications (SPAs), you can transform it into a multi-page web application using the React Router library. 
 This project serves as a demonstration of how to integrate React Router into your application to enable multiple pages and navigation between them. 
@@ -35,7 +39,7 @@ visit [React Router](https://reactrouter.com/en/main) for documentation.
 ![Capture](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/dc3ef413-bea5-43b1-a9ff-0415ab43581e)
 
 
-# 03 - Json Server Project
+# 03_JSON_Server
 This project demonstrates how to perform CRUD operations using a JSON server. It includes examples of creating, reading, updating, and deleting resources via HTTP requests to a JSON server API.
 
 ## Setup
@@ -95,7 +99,7 @@ fetch(`http://localhost:3000/users/${id}`,{
 ![Minimal Modern You Are Enough Quote Desktop Wallpaper](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/10732a3a-0dc6-4fd9-8ab2-e3ec38287006)
 
 
-# 04 - Project [Theme Changer using Context API]
+# 04_Theme_Changer_Using_ContextAPI
 In this project, we explore the use of React's Context API for global state management. The primary focus is to manage a global theme state, allowing users to toggle between light and dark themes. The global state is managed in a context provider and consumed by various components in the application.
 
 ### Features
