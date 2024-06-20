@@ -1,0 +1,20 @@
+
+.form_wrapper input, .form_wrapper button{
+    box-shadow: 3px 3px 0 black;
+    transition: all 0.1s ease-in-out;
+}
+
+.form_wrapper button:hover ,.form_wrapper input:focus {
+    box-shadow: 5px 5px 0 black;
+    transform: translate(-2px,-2px); /* This will create the rising effect */
+}
+
+.todo_dispay_wrapper{
+    box-shadow: 4px 4px 0 black;
+    transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+}
+
+.todo_dispay_wrapper:hover{
+    box-shadow: 8px 8px 0 black;
+    transform: translate(-4px,-4px);
+}
