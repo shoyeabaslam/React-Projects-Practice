@@ -3,6 +3,7 @@
 - [02 React Routers](#02_React_Router)
 - [03 JSON Server](#03_JSON_Server)
 - [04 Context API In React](#04_Theme_Changer_Using_ContextAPI)
+- [05 useReducer](#05_TODO_Application_Using_useReducer)
   
 
 # 01_Custom_Hooks
@@ -120,5 +121,44 @@ npm install
 
 ### Demo
 ![Capture](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/ecef8afd-49ef-4ae2-8850-234a31497877)
+
+
+# 05_TODO_Application_Using_useReducer
+
+In this project we are exploring use of useReducer hook in   react. Is is a state management hook just like useState. To reduce this complexity and keep all your logic in one easy-to-access place, you can move that state logic into a single function outside your component, called a “reducer”.
+[for more information click here](https://react.dev/learn/extracting-state-logic-into-a-reducer)
+
+The ```useReducer``` hook takes two arguments
+1. A reducer function
+2. Initial Value
+
+And it returns:
+1. State
+2. A dispatch function(which helps to call the reducer method)
+
+## Project Structure:
+```
+src/
+|-- components/
+|   |-- InputForm.tsx
+|   |-- DisplayTodo.tsx
+|-- utils/
+|   |-- getColor.ts
+|-- reducers/
+|   |-- todoReducer.ts
+|-- types/
+|   |-- state.ts
+|   |-- actions.ts
+```
+
+## Sample Code
+```
+    const [state, dispatch] = useReducer<Reducer<State, Action>>(todoReducer, initialValue);
+    dispatch({type:'update_input',nextDraft:e.target.value}) // calling the reducer method by passing type and other parameters
+    state // to access the state values
+```
+
+![Capture](https://github.com/shoyeabaslam/React-Projects-Practice/assets/118368907/8983f01c-f3b1-4a6f-b1f1-985e563bef44)
+
 
 
